@@ -1,0 +1,21 @@
+/* 📱 Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .bg {
+        background-size: contain; /* Ensures full image is visible */
+        background-position: top; 
+        width: 100%;
+        height: 500px; 
+        margin: 5px;/* Allows content to determine height */
+    }
+}
+
+/* 📱 Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .bg {
+        background-size: contain; /* Ensures full image is visible */
+        background-position: top; 
+        width: 100%;
+        height: 500px; 
+        margin: 5px;/* Allows content to determine height */
+    }
+}
