@@ -7,6 +7,10 @@
         height: 500px; 
         margin: 5px;/* Allows content to determine height */
     }
+
+    .myname {
+        font-size: 25px;
+      }
 }
 
 /* 📱 Extra Small Devices (max-width: 480px) */
