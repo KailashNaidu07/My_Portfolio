@@ -1,0 +1,42 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive Background */
+.bg
+ {
+    background-image: url('./Images/bg/bg.jpg'); /* Update the path as needed */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures image covers the screen */
+    background-position: center; /* Centers the image */
+    height:100vh;
+    
+}
+
+
+
+
+/* 📱 Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .bg {
+        background-size: contain; /* Ensures full image is visible */
+        background-position: top; 
+        width: 100%;
+        height: 500px; 
+        margin: 5px;/* Allows content to determine height */
+    }
+}
+
+/* 📱 Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .bg {
+        background-size: contain; /* Ensures full image is visible */
+        background-position: top; 
+        width: 100%;
+        height: 500px; 
+        margin: 5px;/* Allows content to determine height */
+    }
+}
