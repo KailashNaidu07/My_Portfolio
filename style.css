@@ -10,107 +10,40 @@
     margin-left: 40px;
 }
 
-/* 🌆 Responsive Background */
-.indexbackgroundimg {
-    position: relative;
+
+.bg {
     background: url('./Images/bg/bg.jpg') no-repeat center center/cover;
+    width: 100vw;  /* Ensures full width */
+    height: 100vh; /* Full screen height */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center;
+    object-fit: cover;
+}
+
+
+.indexpage {
+    display: flex;
+    margin-left: 50px;
+    
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.bg {
+    background: url('./Images/bg/bg.jpg') no-repeat center center;
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    background-size: cover;
+}
+.myname
+{
+    font-size: 65px;
+}
+.head4{
+    font-size: 33px;
 }
 
-/* 🔤 Content Styling */
-.indexbackgroundimg h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.indexbackgroundimg h2 {
-    font-size: 32px;
-}
-
-.indexbackgroundimg p {
-    font-size: 20px;
-}
-
-/* 🎥 GIF Styling */
-.hi_gif {
-    width: 200px;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-/* ====== 🌐 Social Icons Styling ====== */
-.icons4 {
-    display: flex;
-    gap: 25px;
-    margin-top: 20px;
-}
-
-.icons4 a {
-    display: inline-block;
-    transition: transform 0.3s ease-in-out;
-}
-
-.icons4 img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-/* 🎨 Hover Effects */
-.icons4 a:hover img {
-    transform: scale(1.2);
-    filter: brightness(1.2);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-/* 🎭 Individual Icon Color Effects */
-#linkedin:hover {
-    filter: drop-shadow(0px 0px 10px #0a66c2);
-}
-
-.github:hover {
-    filter: drop-shadow(0px 0px 10px #333);
-}
-
-.instagram:hover {
-    filter: drop-shadow(0px 0px 10px #e1306c);
-}
-
-/* 📱 Responsive Styles */
-@media (max-width: 992px) {
-    .indexbackgroundimg h1 {
-        font-size: 35px;
+    .para1
+    {
+    font-size: 23px;
     }
-}
-
-@media (max-width: 768px) {
-    .indexbackgroundimg {
-        padding: 20px;
-    }
-
-    .indexbackgroundimg h1 {
-        font-size: 28px;
-    }
-
-    .indexbackgroundimg h2 {
-        font-size: 24px;
-    }
-
-    .indexbackgroundimg p {
-        font-size: 18px;
-    }
-
-    .hi_gif {
-        width: 150px;
-    }
-
-    .icons4 img {
-        width: 35px;
-        height: 35px;
-    }
-}
